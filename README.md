@@ -47,3 +47,29 @@
 
 #### an exploit them
  - cast send 0x1234 "exploit(bytes32[])" [0x5678, 0x9012]
+
+ -----
+
+Deployer address: 0xE908E8B1B9e6cb2D120CA8631Dc3d0b23b681e7E
+Deployer balance: 978121558979036244
+
+kreditContract address:     0xd88A131688A49f7546a50096302017A0efDd9C52
+kharacterContract address:  0x4f0e47B94c8A01234b56dc49065D3760efbf9339
+colorLockContract address:  0x626b0428027650EB2c6EB387B4b472161823bB0b
+primeLockContract address:  0xE287eC3Ae587F6e1Df89D8617b2aCc9ce4cE6A59
+
+
+npc0:  0x0e9a649CAD3Aff8696B24306eBf9d98E41fBE312
+kred:  BigNumber { value: "10" }
+locks: [ '0x626b0428027650EB2c6EB387B4b472161823bB0b' ]
+
+npc1:  0x325cd65dbEC0401f2Bb8452429237DC5D74E3b40
+kred:  BigNumber { value: "20" }
+locks: [ '0xE287eC3Ae587F6e1Df89D8617b2aCc9ce4cE6A59' ]
+
+npc2:  0x1f9A7642A9C0AdB45cbeC83Ac8E7c01FEb64325C
+kred:  BigNumber { value: "30" }
+locks: [
+  '0x626b0428027650EB2c6EB387B4b472161823bB0b',
+  '0xE287eC3Ae587F6e1Df89D8617b2aCc9ce4cE6A59'
+]
